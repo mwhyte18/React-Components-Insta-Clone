@@ -44,6 +44,27 @@ const dummyData = [
                 text: "It that injustice"
             }
         ]
+    },
+    {
+        username: "Robin",
+        thumbnailUrl: 'https://images.unsplash.com/photo-1552158732-06dc1d835de0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80',
+        imageUrl: 'https://images.unsplash.com/photo-1468914793027-6ecfb73cb1ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+        likes: 25,
+        timestamp: "February 7th 2020, 06:12:09 pm",
+        comments: [
+            {
+                username: "marco21",
+                text: "Great city, even better memories!"
+            },
+            {
+                username: "JanBaker2131",
+                text: "Miss the castle!"
+            },
+            {
+                username: "WilhelmOlafson",
+                text: "Good times on the hauptstrasse"
+            }
+        ]
     }
 ];
 

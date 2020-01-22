@@ -1,6 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: #fafafa;
+}
+button{
+  padding: 0;
+  border: none;
+  background: none;
+}
+button:focus {
+  background-color: red;
 }
