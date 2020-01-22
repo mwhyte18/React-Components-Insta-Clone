@@ -9,6 +9,7 @@
 .search-form {
   width: 150px;
   font-size: 14px;
+  padding-right: 730px;
 }
 .search-form input {
   text-align: center;
@@ -16,10 +17,15 @@
 }
 .image-wrapper {
   height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
 }
 
 .logo-image {
-  height: 100%;
+  width: 12%;
+  border-left: 1px solid black;
+  padding-left: 60px;
 }
 
 .social-wrapper {

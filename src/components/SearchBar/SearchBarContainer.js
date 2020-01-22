@@ -8,6 +8,9 @@ const SearchBar = () => {
       <div className="image-wrapper">
         <i className="fab fa-instagram" />
       </div>
+      <div className="image-wrapper">
+        <img className="logo-image" src={require("./instagram.png")}/>
+      </div>
       <form className="search-form">
         <input
           type="text"
@@ -26,7 +29,7 @@ const SearchBar = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default SearchBar;
